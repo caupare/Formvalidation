@@ -2,7 +2,8 @@ function validate()
 {
 var fname = document.getElementById("fname").value;
 var lname = document.getElementById("lname").value;
-if( !fname || !lname || fname.includes(" ") || fname.includes(" "))
+var name=/^[a-zA-Z]{2,10}$/
+if(!name.test(fname) || !name.test(lname))
 {
 alert("Enter the Name correctly");
 return;
