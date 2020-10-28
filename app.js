@@ -50,5 +50,5 @@ if(!add.test(address))
 }
 
           
-
+alert("You are registered");
 }
