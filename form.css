@@ -1,0 +1,165 @@
+
+  .hero { 
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('3743528.jpg' );
+    background-size: cover;
+  } 
+#headtag  {
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 15px;
+    margin-bottom: 10px ;
+    font-family: 'Oxygen', sans-serif;
+    color:#333366;
+    margin-left: 0px;
+}
+.je
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color:#400D12;
+    margin-top: 0px;
+    margin-left: 70%;
+}
+#l1 {
+    
+    float: left;
+    width:150px;
+    list-style-type: none;
+    margin: 18px;
+    padding: 0;
+    overflow: hidden;
+
+}
+#form1
+{
+    
+    color:#CCFFFF;
+    background-color:#336666;
+    width: 400px;    
+    margin-top: 60px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#error
+{
+text-align:center;
+}
+
+#form
+{   
+
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    display: block;
+    margin: 20px auto;
+    width: auto;
+}
+form
+{
+    margin: 20px auto;
+    width: auto;
+    padding: 30px;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+
+input[type="text"]
+{
+display: block;
+margin-bottom: 20px;
+width: 100%;
+border: 2px solid steelblue;
+}
+input[type="address"]
+{
+display: block;
+text-align: start;
+padding: 30px;
+margin-bottom: 20px;
+width: 100%;
+border: 2px solid steelblue;
+}
+input[type="number"]
+{
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid steelblue;
+}
+input[type="email"]
+{
+display:block;
+margin-bottom:25px;
+width:100%;
+border:2px solid steelblue;
+}
+button[type="submit"]
+{
+    width: 320px;
+    height:40px;
+    border:none;
+    background: steelblue;
+    color: white;
+
+
+
+}
+#hh3
+{   
+   
+    font-size: 40px;
+    color: black;	
+    margin-left: auto;
+    font-weight:bold;
+
+}
+#form2
+{
+   display:block;
+   width:50%;
+   left-margin:40%;
+}
+
+a:link,a:visited{
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+}
+#container{
+    align-items: center;
+    justify-content: center; 
+    margin-left: 25%;
+    position: relative;
+}
+table.tabl{
+}
+table.tabl td:nth-of-type(4) {width:50%;word-break:break-all;}
+.table tr td{
+      
+      border:2px solid black;
+  }
+  #table1{
+    color:black;
+    border-style:solid;
+    font-size:25px;
+    width:70%;
+    font-weight: bold;
+    margin-top:3%;
+    text-align: center;
+    background-color: #8eedce;
+  }
+  th,td{
+      padding: 10px;
+      border:2px solid black;
+      
+  }
