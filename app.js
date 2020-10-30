@@ -26,7 +26,7 @@ if(!bg.test(bgroup) || !bgroup )
 }
 
 var no = document.getElementById("no").value;
-var no1=/^(\+[\d]{1,2})?[6-9](\d){9}$/
+var no1=/^(\+91)?[6-9](\d){9}$/
 if(!no || !no1.test(no))
 {
 alert("Phone no cannot be "+no+"!!\n Enter Correct Phone no!!");
