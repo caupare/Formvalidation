@@ -2,7 +2,7 @@ function validate()
 {
 var fname = document.getElementById("fname").value;
 var lname = document.getElementById("lname").value;
-var name=/^[a-zA-Z]{2,15}$/
+var name=/^[a-zA-Z]{3,15}$/
 if(!name.test(fname) || !name.test(lname))
 {
 alert("Enter the Name correctly");
