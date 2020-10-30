@@ -43,7 +43,7 @@ if(!em.test(email))
 
 
 var address = document.getElementById("address").value;
-var add = /^[a-zA-Z0-9\/]{2}[a-zA-Z0-9\.\-\_\,\ \/]{4,50}$/
+var add = /^[a-zA-Z0-9][a-zA-Z0-9\.\-\_\,\ \/]{4,50}$/
 if(!add.test(address))
 {
  alert("Enter the Address correctly");
